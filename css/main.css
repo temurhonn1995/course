@@ -1,0 +1,324 @@
+/* FONTS */
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/") format("woff2"),
+    url("../fonts/Rubik-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Bold.woff2") format("woff2"),
+    url("../fonts/Rubik-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
+    url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+    url("../fonts/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/* FONTS */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+*:focus {
+  outline: 3px blue dotted;
+  outline-offset: 2px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.main-content {
+  flex-grow: 1;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.button-primary:active {
+  opacity: 0.6;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+/* SITE-HEADER-CSS */
+.site-header {
+}
+.site-header-top-wrapper {
+  display: flex;
+  align-items: center;
+}
+.site-header-top {
+  background-color: #f6f6f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.site-header-logo {
+}
+.header-logo-link {
+  background-color: #fff;
+  display: inline-block;
+  padding: 9px 6px 8px 6px;
+  border-radius: 7px;
+}
+.header-logo-img {
+  display: block;
+}
+.currency-rates {
+  margin-left: 35px;
+  display: flex;
+  margin-right: auto;
+}
+.currency-rate-item:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-type {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2959ce;
+}
+
+.site-header-form {
+  margin-right: 25px;
+}
+.site-header-form-input-field {
+  padding: 13px 45px;
+  border-radius: 60px;
+  background-color: #fff;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8d8d8d;
+  border: transparent;
+  background-image: url(../images/search-icon/search.svg);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-size: 20px;
+}
+.lang-toggler {
+  background-color: #dce6ff;
+  padding: 3px;
+  border-radius: 39px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  margin-right: 25px;
+}
+.lang-toggle-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px;
+}
+.lang-toggle-link-active {
+  background-color: #ffff;
+  border-radius: 50%;
+}
+
+.button-auth {
+  display: inline-block;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 13px 20px;
+  background: #7296ec;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.sitenav {
+  padding-top: 26px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d1d1d1;
+}
+.site-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 34.44px;
+}
+.sitenav-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.sitenav-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #7f7f7f;
+}
+.site-header-banner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.site-header-banner-link {
+  display: inline-block;
+}
+.site-header-banner-img {
+  width: 1200px;
+  height: 128px;
+}
+.site-header-banner:active {
+  opacity: 0.6;
+}
+
+.site-header-banner:hover {
+  opacity: 0.8;
+}
+
+/* TOP-NEWS-GRID */
+
+.news {
+}
+
+.top-news {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+.news-article-item {
+  width: 393px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.news-article-card {
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  padding: 20px 16px 15px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.article-card-title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.article-card-title-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.article-card-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4a4b4c;
+}
+.article-card-img {
+  margin-top: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-card-footer-img-source {
+  display: flex;
+  align-items: center;
+}
+.article-card-footer-img {
+  width: 20px;
+  height: 20px;
+}
+.article-card-source-time {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+/* NOTIFICATION-CTA */
+.notification-cta {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  width: 1050px;
+  margin: 0 auto;
+}
+.notification-cta-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../images/notification-cta/notification.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 71px 25px 29px;
+  border-radius: 10px;
+}
+.notification-cta-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.button-orange {
+  padding: 13px 30px;
+  color: #fff;
+  border-radius: 10px;
+  background: #f78b3b;
+  border: none;
+}
